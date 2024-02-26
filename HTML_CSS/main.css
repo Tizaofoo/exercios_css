@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color:black;
+    padding: 16px 0;
+    color:#fff;
+}
+
+header .container {
+    display:flex;
+    align-items: center;
+}
+
+header li {
+    display: block;
+}
+
+header li a {
+    color:#fff;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    height: 180px;
+}
+
+.article article {
+    width: 30%;
+}
+
+saction {
+    padding: 16px 0;
+}
+
+saction h2,
+.article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.article article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 249x;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgb(195, 241, 195);
+}
+
+#sports .article article a {
+    background-color: #009432;
+}
+
+#tecnology {
+    background-color: rgb(219, 219, 167);
+}
+
+#tecnology .article article a{
+    background-color: orange;
+}
